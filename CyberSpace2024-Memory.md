@@ -30,7 +30,3 @@ python3 vol.py -f mem.dmp windows.envars.Envars (windows.envars.Envars plugin he
 
 
 
-
-
-
-
