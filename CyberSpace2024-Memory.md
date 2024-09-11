@@ -1,7 +1,6 @@
 **해당 라이트업은 CyberSpace2024 대회에서의 Forensic 분야의 Memory 문제의 풀이를 담고 있습니다.<br><br><br><br>**
 
 
-
 ![1](https://github.com/user-attachments/assets/8052b775-1be1-4753-b3e1-56f543490c29)<br>
 mem.dmp 파일은 MS Windows 64비트 크래시 dump 파일이기 때문에 string으로 변환하여 분석을 위해 텍스트 파일로 저장하고자 하였다.<br><br>
 
@@ -48,7 +47,8 @@ windows.envars.Envars: Volatility 플러그인 중 하나로, Windows 환경 변
 
 (https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)AES_Decrypt(%7B'option':'Base64','string':'dF3luZxgMqMjdv26DTzAZqhRHyQsLOiQCajdl6IapdE'%7D,%7B'option':'Base64','string':'A8701A28A919CBYf1YXfocPY/iDTpVUsfklA%3D%3D44D2769846608DA3AE'%7D,'CBC/NoPadding','Raw','Raw',%7B'option':'Hex','string':'EF56C829E0B1A510F3CB5EC18E3B5141'%7D,%7B'option':'Hex','string':''%7D)&oeol=FF)<br><br>
 
-![flag](https://github.com/user-attachments/assets/75698ae2-18b9-45ef-83ac-e56d009c2f78)<br>
+
+![flag](https://github.com/user-attachments/assets/a2d53afa-188a-4663-8f6e-45c46a9df3f2)<br>
 
 
 
