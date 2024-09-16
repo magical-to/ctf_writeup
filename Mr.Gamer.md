@@ -2,7 +2,6 @@
 https://cyberdefenders.org/blueteam-ctf-challenges/mrgamer/<br><br><br><br>
 
 
-
 **Introduction**<br><br>
 
 Scenario : This #Linux image belongs to a user who likes to play games and communicate with friends.<br>
