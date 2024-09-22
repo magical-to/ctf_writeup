@@ -1,6 +1,7 @@
 **해당 라이트업은 CyberSpace2024 대회에서의 Forensic 분야의 Memory 문제의 풀이를 담고 있습니다.<br><br><br><br>**
 
 
+
 ![1](https://github.com/user-attachments/assets/8052b775-1be1-4753-b3e1-56f543490c29)<br>
 mem.dmp 파일은 MS Windows 64비트 크래시 dump 파일이기 때문에 string으로 변환하여 분석을 위해 텍스트 파일로 저장하고자 하였다.<br><br>
 
