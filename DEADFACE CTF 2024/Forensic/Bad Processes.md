@@ -39,4 +39,3 @@ fornesic_basic이나 codecure repo를 보면 알 수 있듯이, PID를 구하기
 flag 값은 11260, 11532, 11516, 8460 중 하나 집어 넣으면 된다.<br><br>
 
 flag{8640}
-
