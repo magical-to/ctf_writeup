@@ -25,7 +25,8 @@ malware.exe를 추출해보니 계산기 모양의 프로그램이다.<br>
 이 malware.exe 실행파일이 계산기 프로그램을 실행시키는 것 같다.<br><br>
 
 ![3](https://github.com/user-attachments/assets/b33ed904-a82d-4351-9d94-106b6541cfd7)<br>
-Powershell에서 제공하는 MD5 해쉬 값을 뽑아주는 명령어를 입력해주면 된다.
+Powershell에서 제공하는 MD5 해쉬 값을 뽑아주는 명령어를 입력해주면 된다.<br>
+참고로 소문자로 넣어야 한다..
 
 
 
