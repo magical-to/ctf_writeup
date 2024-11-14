@@ -1,6 +1,7 @@
 해당 글은 Dreamhack(https://dreamhack.io/)의 포렌식 문제 중 하나인 'Track_the_file'의 풀이를 담고 있습니다.<br><br>
 
-VBR 문제 주소 : https://dreamhack.io/wargame/challenges/1325<br><br>
+Track_the_file 문제 주소 : https://dreamhack.io/wargame/challenges/1325<br>
+포렌식 문제 자료 주소 : https://dreamhack.io/lecture/forensics-materials<br><br>
 
 문제 설명 : <br>
 드림이는 컴퓨터를 살펴보다가 수상한 점을 발견했습니다.<br>
