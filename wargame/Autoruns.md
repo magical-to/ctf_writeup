@@ -26,13 +26,20 @@ malware.exe를 추출해보니 계산기 모양의 프로그램이다.<br>
 
 ![3](https://github.com/user-attachments/assets/b33ed904-a82d-4351-9d94-106b6541cfd7)<br>
 Powershell에서 제공하는 MD5 해쉬 값을 뽑아주는 명령어를 입력해주면 된다.<br>
-참고로 소문자로 넣어야 한다..
+참고로 소문자로 넣어야 한다..<br><br><br><br><br><br><br>
 
 
 
 
 
+우연으로 푼 풀이이고, 원래는 Registry Explorer(https://ericzimmerman.github.io/#!index.md)를 사용했는데,<br><br>
 
+![4](https://github.com/user-attachments/assets/dc7f138a-c125-4ac6-b07b-b5381d02fd32)<br>
+위 사진은 뽑아낸 NTUSER.DAT를 Registry Explorer에 넣어보았더니<br>
+유저명이 victim인 NTUSER.DAT를 읽어 HKCU 안에 있는 Run 키를 확인해 "C:\Users\victim\malware.exe"가 부팅할 때 마다<br>
+자동 실행되게 설정 되어있는 것을 확인할 수 있었다.<br><br>
+
+그 후, malware.exe의 해쉬값을 HashCalc나 위의 방법처럼 뽑아내는 것이 정석이다.
 
 
 
