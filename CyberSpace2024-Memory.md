@@ -50,11 +50,3 @@ windows.envars.Envars: Volatility 플러그인 중 하나로, Windows 환경 변
 
 
 ![flag](https://github.com/user-attachments/assets/a2d53afa-188a-4663-8f6e-45c46a9df3f2)<br>
-
-
-
-
-
-
-
-
