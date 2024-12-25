@@ -54,4 +54,3 @@ NPPSPY.dll 파일을 다운로드한 뒤, 명령어 : **sha1sum NPPSPY.dll**를 
 **PWNSEC{C:\Windows\System32\lsass.dll_5e84941be2c10ecec9d796211196fca10e0834dd_NPPSpy.txt}**
 
 
-
