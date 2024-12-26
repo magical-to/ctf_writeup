@@ -91,4 +91,3 @@ print(f"Full flag: {current_flag}")
 ```
 플래그는 다음과 같다!<br>
 Flag: PWNSEC{L34V3_My_C0mpu73R_Y0u_5t4lk3R}
-
