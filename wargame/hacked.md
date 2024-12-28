@@ -79,15 +79,8 @@ $MFT 파일을 HxD를 이용해서 열어 script.ps1을 찾아보니 다음과 �
 A와 B는 각각 script.ps1, 20240501-163302이다.
 
 flag 형식이 DH{MyScript.js_20240502-120357}이므로 flag는 다음과 같다.<br>
-DH{script.ps1_20240501-163302}이다!
+DH{script.ps1_20240501-163302}이다!<br><br>
 
-
-
-
-
-
-
-
-
-
-
+처음 Arsenal Imager Mounter와 gkape만 사용한다고 써두었는데 풀다보니 이래저래 많은 도구들을 사용한 것 같다.<br>
+사실 Arsenal Imager Mounter와 gkape만으로는 왠만한 문제를 풀 수 없기에 그러려니 하고 넘어가주면 좋겠다 ㅠ<br>
+초보자들은 FTK Imager와 NTFS Log Tracker, HxD의 사용법을 미리 익혀두는 것이 좋을 것 같다.
