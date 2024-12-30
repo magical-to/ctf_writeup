@@ -1,4 +1,4 @@
-Challenge Category : Osint<br>
+![image](https://github.com/user-attachments/assets/b6b4a54c-c310-46a7-afa3-73110f9107f7)Challenge Category : Osint<br>
 Challenge Name : GhostBot<br><br>
 
 ![1](https://github.com/user-attachments/assets/0ee6f0dc-9f7a-4a75-9baa-1154b91c27c0)<br>
@@ -74,8 +74,21 @@ if name == "Elsfa7 Elmrta7":<br>
 ![image](https://github.com/user-attachments/assets/d006ca75-b77e-4baf-bc8d-39e5acd25538)<br>
 요건 gist를 활용해서 또다른 SECRET_KEY를 찾은 모습이다.<br><br>
 
+![18](https://github.com/user-attachments/assets/a68d91ef-52de-4ff0-ac4d-94d716fa5d4a)<br>
+jwt 디코더로 가서(https://jwt.io/) 다음과 같이 잘 숨겨주고<br><br>
+
+![17](https://github.com/user-attachments/assets/261bda1b-650e-4244-a3bf-c85b03faecc9)<br>
+admin 권한으로 로그인을 성공하게 되면, 플래그가 나오게 된다.<br><br>
+
+0xL4ugh{Y0u_So1v3d_m3_bu7_It5_N0t_th3_End}<br><br>
 
 
+ps.<br>
+![19](https://github.com/user-attachments/assets/421bd44e-cd39-44dd-a98f-c573bcc77b45)<br>
+주인장 양반....<br><br>
+
+https://tryhackme.com/jr/0xl4ughosintctf<br>
+this is a free OSINT Room on TryHackMe if you want to try it. and share it with ur friends (Its Free)....
 
 
 
