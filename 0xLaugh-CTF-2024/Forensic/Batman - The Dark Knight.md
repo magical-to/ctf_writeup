@@ -41,4 +41,4 @@ notepad file.dat:Zone.Identifier:$DATA
 를 입력하고 나면 메모장에 다음과 같이 표시가 된다.<br><br>
 
 ![6](https://github.com/user-attachments/assets/6b7f5bd2-40f7-4cd0-ba76-2c1644ac1b6c)<br>
-기다란 hex 값이 바로 플래그이다.
+기다란 hex 값이 바로 플래그이다!
