@@ -44,7 +44,7 @@ flag.txt: RIFF (little-endian) data, WAVE audio, Microsoft PCM, 8 bit, mono 8000
 ```
 
 <br><br>
-flag.wav를 재생해보면 모스 부호(Morse Code) 소리가 들린다.<br><br.>
+flag.wav를 재생해보면 모스 부호(Morse Code) 소리가 들린다.<br><br>
 
 steghide extract -sf chall.jpg -p "i_love_rose"<br><br>
 
