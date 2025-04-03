@@ -2,7 +2,9 @@
 
 패스워드를 다시 찾아달라고 하는 문제이다.<br><br>
 
-우선 rockyou로 사전 공격(Dictionary Attack)을 하여 비밀번호를 알아냈다.<br><br>
+우선 rockyou로 사전 공격(Dictionary Attack)을 하여 비밀번호를 알아냈다.<br>
+rockyou를 다운 받는 주소(https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)<br>
+rockyou는 99억 개에 달하는 비밀번호가 담겨있다.<br><br>
 
 https://perconsi.tistory.com/44<br><br>
 
