@@ -1,4 +1,4 @@
-# 🎉 Rest In Peace Writeup
+# 🪦 Rest In Peace - Writeup
 
 > **카테고리**: 포렌식 
 
