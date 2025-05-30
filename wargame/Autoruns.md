@@ -1,6 +1,6 @@
 해당 글은 Dreamhack(https://dreamhack.io/)의 포렌식 문제 중 하나인 'Autoruns'의 풀이를 담고 있습니다.<br><br>
 
-Track_the_file 문제 주소 : https://dreamhack.io/wargame/challenges/1323<br>
+Autoruns 문제 주소 : https://dreamhack.io/wargame/challenges/1323<br>
 포렌식 문제 자료 주소 : https://dreamhack.io/lecture/forensics-materials<br><br>
 
 문제 설명 : <br>
