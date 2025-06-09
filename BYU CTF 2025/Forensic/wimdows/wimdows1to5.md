@@ -18,9 +18,11 @@
 
 ### 🛠️ 풀이 요약
 
-- Sysmon 로그에서 `elasticsearch-service-x64.exe`를 부모로 하는 SYSTEM 권한 프로세스 다수 발견
+- System 로그에서 `elasticsearch-service-x64.exe`를 부모로 하는 SYSTEM 권한 프로세스 다수 발견
 - 해당 ElasticSearch 버전: **1.1.1**
 - 관련 CVE 중 **RCE가 가능한 유일한 취약점**: `CVE-2014-3120`
+- ![image](https://github.com/user-attachments/assets/30a7b886-848e-4250-8f69-43bdd03d183a)
+
 
 ### ✅ 정답
 
