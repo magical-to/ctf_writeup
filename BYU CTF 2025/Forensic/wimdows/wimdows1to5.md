@@ -5,7 +5,7 @@
 - 문제 유형: Windows 포렌식 (디스크/로그 기반 분석)
 - 제공 파일: [Windows 가상 머신 다운로드](https://byu.box.com/v/byuctf-wimdows)  
 - 로그인 정보: `vagrant / vagrant`
-- 공통 힌트: 모든 문제는 **Event Viewer (이벤트 로그)** 및 **Sysmon** 분석으로 해결 가능함
+- 공통 힌트: 모든 문제는 **Event Viewer (이벤트 로그)** 및 **System** 분석으로 해결 가능함
 
 ---
 
